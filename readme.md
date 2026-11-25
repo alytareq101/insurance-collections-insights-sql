@@ -2,6 +2,8 @@
 
 ### SQL analysis (MySQL) · an insurance broker case study
 
+> **The real question isn't "why is this premium late?" but "who's holding it?"** The same overdue total splits into four queues: waiting on the broker's review, on the insurer, on the client, or on finance. Each needs a different person to act. In this data, 41% of "overdue" premiums (EGP 6.07M) were already paid by clients and stuck waiting on insurer receipts, so the follow-up belonged with insurers, not clients.
+
 **SQL data analysis of insurance premium collections and accounts receivable in MySQL**: data cleaning in SQL, CTEs, window functions, aging and on-time payment analysis, and a hypothesis test.
 
 Eight business questions about insurance premium collection at a broker, answered in SQL: where money gets stuck, which insurers slow things down, and whether **late invoices cause late payments** (they do).
